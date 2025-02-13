@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day, Kayalvizhi!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: url('two-shiny-valentines-day-hearts-background-vector.jpg') no-repeat center center/cover;
+            background-size: cover;
+            color: white;
+            overflow-x: hidden; /* Disable horizontal scroll */
+        }
+        .container {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6); /* Darker overlay to improve text contrast */
+            min-height: 100vh;
+        }
+        h1 {
+            font-size: 50px;
+            margin-top: 20px;
+            text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.7);
+            font-family: 'Dancing Script', cursive;
+        }
+
+        /* Circular love note container */
+        .love-note {
+            background: rgba(255, 255, 255, 0.7); /* Lighter background to enhance contrast */
+            padding: 30px;
+            border-radius: 50%; /* Circular shape */
+            display: inline-block;
+            margin: 20px auto;
+            max-width: 700px;
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.7);
+            position: relative;
+            font-family: 'Open Sans', sans-serif;
+            color: #333; /* Darker text for readability */
+            font-size: 22px;
+            line-height: 1.6;
+        }
+
+        .love-note h2 {
+            font-size: 30px;
+            color: #FF1493; /* Pinkish red for headings */
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        .love-note p {
+            margin: 15px 0;
+            line-height: 1.5;
+        }
+
+        .love-note span {
+            font-size: 28px;
+            font-weight: bold;
+            color: #FF6347; /* Fun color for highlighting */
+            text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Scrollable Container for Images */
+        .image-container {
+            display: flex;
+            animation: scrollImages 15s linear infinite; /* Automatic scrolling effect */
+            justify-content: flex-start;
+            margin-top: 30px;
+        }
+
+        /* Image Styling */
+        .responsive-image {
+            width: 300px; /* Fixed width for uniformity */
+            height: 300px; /* Fixed height to make images square */
+            object-fit: cover; /* Maintain aspect ratio and fill the square space */
+            border-radius: 10px;
+            margin: 0 15px; /* Space between images */
+        }
+
+        /* Scroll Animation */
+        @keyframes scrollImages {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100%); /* Move all images off the screen */
+            }
+        }
+
+        .heart {
+            font-size: 30px;
+            color: #FF1493;
+            margin-right: 8px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 24px;
+            padding-bottom: 30px;
+            text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.7);
+            font-family: 'Dancing Script', cursive;
+        }
+
+        /* Heart animation for floating hearts */
+        .heart {
+            position: absolute;
+            bottom: 0;
+            animation: heart-float 5s infinite;
+        }
+
+        @keyframes heart-float {
+            0% {
+                bottom: 0;
+                opacity: 0;
+            }
+            20% {
+                opacity: 1;
+                transform: scale(1.2) rotate(15deg);
+            }
+            100% {
+                bottom: 100%;
+                opacity: 0;
+                transform: scale(1) rotate(0deg);
+            }
+        }
+
+        .heart:before {
+            content: "❤️";
+            font-size: 50px;
+        }
+
+        .heart1 {
+            left: 30%;
+            animation-duration: 4s;
+            animation-delay: 0s;
+        }
+
+        .heart2 {
+            left: 50%;
+            animation-duration: 6s;
+            animation-delay: 1s;
+        }
+
+        .heart3 {
+            left: 70%;
+            animation-duration: 5s;
+            animation-delay: 2s;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: #FF1493;
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>💖 Happy Valentine's Day, Kayalvizhi! 💖</h1>
+    
+    <p>Every day with you is special, but today is extra special because it's a day to celebrate *us*! 💕</p>
+
+    <div class="love-note">
+        <h2>💌 My Love Letter to You 💌</h2>
+        <p>Dear <span>Kayal</span>,</p>
+        <p>From the very first time our eyes met, I knew my world was about to change forever! 💖 You have brought light into my life, just like the brightest stars in the sky 🌟. Every moment spent with you feels like a beautiful dream come true 🌙.</p>
+        <p>Words will never truly capture how much I adore you, but I'll try anyway: You are my sunshine 🌞, my joy, my endless love. Every laugh, every touch, every second with you is precious to me. 💕</p>
+        <p>We have already shared so many beautiful memories together, and I can't wait to create countless more with you. Let’s keep making life a love story worth telling 📖.</p>
+        <p>Forever yours, <br> <span>Ajith 💖</span></p>
+    </div>
+
+    <h2>🌹 My Life's Beautiful Memories 🌹</h2>
+    <p>Every moment with you is a cherished memory. From our first laugh to our quiet moments together, I treasure them all. Here's to many more beautiful memories of you, my love. 💖</p>
+
+
+    <!-- Scrollable Image Container -->
+    <div class="image-container">
+        <img src="images/1 (1).jpeg" class="responsive-image" alt="Memory 1">
+        <img src="images/1 (2).jpeg" class="responsive-image" alt="Memory 2">
+        <img src="images/1 (3).jpeg" class="responsive-image" alt="Memory 3">
+        <img src="images/1 (5).jpeg" class="responsive-image" alt="Memory 5">
+        <img src="images/1 (7).jpeg" class="responsive-image" alt="Memory 7">
+        <img src="images/1 (8).jpeg" class="responsive-image" alt="Memory 8">
+        <img src="images/1 (9).jpeg" class="responsive-image" alt="Memory 9">
+	<img src="images/1 (10).jpeg" class="responsive-image" alt="Memory 10">
+	<img src="images/1 (11).jpeg" class="responsive-image" alt="Memory 11">
+	<img src="images/1 (12).jpeg" class="responsive-image" alt="Memory 12">
+	<img src="images/1 (15).jpeg" class="responsive-image" alt="Memory 15">
+	<img src="images/1 (18).jpeg" class="responsive-image" alt="Memory 18">
+	<img src="images/1 (20).jpeg" class="responsive-image" alt="Memory 20">
+	<img src="images/1 (21).jpeg" class="responsive-image" alt="Memory 21">
+	<img src="images/1 (22).jpeg" class="responsive-image" alt="Memory 22">	
+	<img src="images/1 (24).jpeg" class="responsive-image" alt="Memory 24">
+    </div>
+
+    <div class="footer">
+        💕 Thank you for being mine! Forever and always! 💕
+    </div>
+
+    <!-- Heart animation -->
+    <div class="heart heart1"></div>
+    <div class="heart heart2"></div>
+    <div class="heart heart3"></div>
+    <div class="heart heart4"></div>
+    <div class="heart heart5"></div>
+
+</div>
+
+</body>
+</html>
